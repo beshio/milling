@@ -84,7 +84,6 @@ diff -c grbl/grbl.h bklc/grbl.h
   #include "coolant_control.h"
   #include "eeprom.h"
   #include "gcode.h"
-Only in bklc/: grbl.h.org
 diff -c grbl/main.c bklc/main.c
 *** grbl/main.c	2021-01-23 09:13:48.000000000 +0900
 --- bklc/main.c	2022-05-17 09:31:48.000000000 +0900

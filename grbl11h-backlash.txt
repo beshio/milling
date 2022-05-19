@@ -93,7 +93,7 @@ diff -c grbl/main.c bklc/main.c
     settings_init(); // Load Grbl settings from EEPROM
     stepper_init();  // Configure stepper pins and interrupt timers
     system_init();   // Configure pinout pins and pin-change interrupt
-+ #if 1
++ #if 0
 + 	DDRC |= (1<<4);  // A4 to output
 + 	PORTC &= ~(1<<4);  // A4 to LOW
 + #endif
